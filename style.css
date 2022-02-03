@@ -28,6 +28,24 @@ body{
     padding: 10px 20px;
 } 
 
+.btn-fixed{
+    text-decoration: none;
+    color: white;
+}
+
+/* text */
+
+.box{
+    font-weight:500px ;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 90px;
+    margin-bottom:40px;
+}
 /* header */
 
 header{
@@ -40,6 +58,7 @@ header{
     left: 20px;
     font-size: 15px;
     right: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 .logo{
     vertical-align: middle;
@@ -57,11 +76,55 @@ header{
 }
 
 .btn-blue{
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
-    border: none;
 }
 
 .btn-blue:hover{
     color: red;
+}
+
+/* jumbotron */
+
+#jumbotron{
+    margin-top: 70px;
+    padding: 50px;
+    background-color: #b4d0e7;
+    margin-bottom: 100px;
+    height: 750px;
+}
+
+.sx{
+    width: 27%;
+}
+
+.arrow{
+    width: 25px;
+    height: 40px;
+    margin: 35px 0 50px 0;
+    font-size: 30px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.dx{
+    width: 50%;
+}
+
+#jumbotron .dx{
+    position: relative;
+}
+
+.dx img{
+    position: absolute;
+    width: 100%;
+    right: 150px;
+}
+
+.btn1{
+    margin-left: 0px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
 }
