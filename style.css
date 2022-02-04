@@ -45,9 +45,11 @@ hr{
 .margin20{
     margin-top: 20px;
 }
+
 .margin-right20px{
     margin-right: 20px;
 }
+
 /* text */
 
 .box{
@@ -160,6 +162,7 @@ header{
 
 .container{
     width: 80%;
+    height: 1200px;
     padding: 70px 70px;
     margin: 0 auto;
     text-align: center;
@@ -226,4 +229,96 @@ header{
     padding-right: 74px;
     padding-left: 69px;
     font-weight: bolder;
+}
+
+/* contact */
+
+.container-contact{
+    width: 80%;
+    position: relative;
+    border: 1px solid #d0d0d3;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.container-contact button{
+    position: absolute;
+    right: 0%;
+    top: 35%;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.team-contact{
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.text-enterprise{
+    padding:20px 50px;
+}
+
+/* sponsor dropbox*/
+
+.sponsor-dropbox{
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.img-sponsor{
+    width: 100%;
+}
+
+.text-sponsor{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.float-left-sponsor{
+    float:left;
+    width: 50%;
+}
+
+.btn-fixed-white{
+    text-decoration: none;
+    color: black;
+}
+.btn-white{
+    background-color: white;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+/* operazioni dropbox*/
+
+.container-operazioni{
+    width: 80%;
+    margin: 0 auto;
+    margin top: 30px;
+}
+
+.container-box{
+    width: 100%;
+    margin-top: 90px;
+    height: 1000px;
+}
+
+.boxes{
+    width: calc(100% / 3 - 80px);
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-right:80px;
+}
+
+.box-top{
+    width: 50%;
+}
+
+.underline{
+    text-decoration: underline;
 }
