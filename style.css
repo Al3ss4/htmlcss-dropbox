@@ -299,7 +299,7 @@ header{
 .container-operazioni{
     width: 80%;
     margin: 0 auto;
-    margin top: 30px;
+    /* margin-top: 30px; */
 }
 
 .container-box{
@@ -321,4 +321,95 @@ header{
 
 .underline{
     text-decoration: underline;
+}
+
+/* team che utilizzano Dropbox*/
+
+.container-team-title{
+    width: 50%;
+    margin: 0 0 0 183px;
+}
+
+.text-team-title{
+    font-size: 50px;
+}
+
+.sez-square{
+    height: 400px;
+    margin-top: 60px;
+}
+.container-square{
+   width: calc(100% / 4 );
+}
+
+.square{
+    width: 49%;
+    height: 200px;
+    padding:50px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.green{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.bordeaux{
+    background-color: #61082b;
+}
+
+.light-blue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+.middle-square{
+    height: 400px;
+    background-color: #f5f5f5;
+    width: 50%;
+    margin-left: -6px;
+    padding-left: 63px;
+}
+.container-square-right{
+    width: calc(100% / 4 );
+ }
+
+ .logo-designit{
+     width: 20%;
+     object-fit: contain;
+     padding-top: 40px;
+     padding-left: 0px;
+     padding-bottom: 50px;
+ }
+
+ .autore{
+     margin-top: 50px;
+ }
+
+.container-free-try{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #b4d0e7;
+    height: 274px;
+    padding: 77px 200px;
+    position: relative;
+}
+
+.btn-white-team{
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 105px;
+    right: 280px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.text-free{
+    margin-left: 200px;
+    width: 600px;
+    font-size: 46px ;
 }
