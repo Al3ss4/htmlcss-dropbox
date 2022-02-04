@@ -127,3 +127,28 @@ header{
     margin-left: 0px;
     margin-bottom: 15px;
 }
+
+/* piano d'acquisto */
+
+.container{
+    width: 80%;
+    padding: 70px 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.margin{
+    margin: 37px 414px;
+}
+
+.table{
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.colon{
+    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
+    border: 1px solid #d0d0d3;
+    text-align: left;
+}
