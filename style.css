@@ -367,6 +367,21 @@ header{
     background-color: #ff1c1c;
 }
 
+.light-red{
+    background-color: #d5001f;
+}
+
+.celeste{
+    background-color: #b4d0e7;
+}
+
+.blue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
 .middle-square{
     height: 400px;
     background-color: #f5f5f5;
@@ -412,4 +427,46 @@ header{
     margin-left: 200px;
     width: 600px;
     font-size: 46px ;
+    color: #61082b;
+}
+
+/*domande frequenti */
+
+.container-faq{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 20px 30px 30px;
+}
+
+.border-faq{
+    border-top: 1px solid #dcdcde;
+    line-height: 70px;
+}
+
+.faq{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1,1;
+    display: none;
+    color:#b1b8be
+}
+
+.border-faq-bottom{
+    border-bottom: 1px solid #dcdcde;
+    line-height: 70px;
+}
+
+li .float-right{
+    text-decoration: none;
+}
+
+.container-faq ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.clearfix:hover .faq{
+    display: block;
 }
