@@ -471,5 +471,66 @@ li .float-right{
     display: block;
 }
 
+/*footer*/
+
+.footer-container{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    margin-top: 40px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.sez-ftr{
+    width: calc(100% / 5);
+}
+
+.sez-ftr nav ul li{
+    margin-top: 10px;
+}
+
+.sez-ftr nav ul{
+    list-style-type: none ;
+}
+
+.sez-ftr nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.h4-footer{
+    margin-bottom: 30px;
+}
 
 
+.short-footer{
+    width: 80px;
+    margin-top: 95px;
+    color:  #bfbfbf;
+}
+
+.language{
+    position: absolute;
+    top: 90%;
+    right: 90%;
+}
+
+.language a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.heart{
+    color:#999999 ;
+}
+
+.italiano{
+    color:#656565 ;
+}
+
+.arrow-ftr{
+    color: #666666;
+}
