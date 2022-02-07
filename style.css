@@ -169,7 +169,10 @@ header{
     height: 1200px;
     padding: 70px 70px;
     margin: 0 auto;
-    text-align: center;
+}
+
+.h2-business{
+    margin-left:  159px;
 }
 
 .margin{
@@ -348,7 +351,7 @@ header{
 }
 
 .square{
-    width: 49%;
+    width: 50%;
     height: 200px;
     padding:50px;
     vertical-align: middle;
@@ -534,3 +537,5 @@ li .float-right{
 .arrow-ftr{
     color: #666666;
 }
+
+
